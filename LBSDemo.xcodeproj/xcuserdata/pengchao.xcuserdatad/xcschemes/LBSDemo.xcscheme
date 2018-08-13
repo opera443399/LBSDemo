@@ -84,7 +84,7 @@
       <AdditionalOptions>
       </AdditionalOptions>
       <LocationScenarioReference
-         identifier = "../../LBSDemo/LocationShangMei.gpx"
+         identifier = "../../LBSDemo/Location.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>
