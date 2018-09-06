@@ -4,7 +4,7 @@
 
 
 ### 新建 ios xcode 项目
-新增文件： xxx.gpx
+新增文件： Location.gpx
 
 ```xml
 <?xml version="1.0"?>
@@ -15,7 +15,7 @@
      waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
      Xcode will simulate a route visiting each waypoint.
      -->
-    <wpt lat="28.546411767782338" lon="119.95348721621627">
+    <wpt lat="33.546411767782338" lon="223.95348721621627">
     </wpt>
 
 </gpx>
@@ -33,8 +33,8 @@ import (
 
 func main() {
     fmt.Printf("Hello\n")
-    gcjLat := 28.543428
-    gcjLng := 119.958387
+    gcjLat := 33.543428
+    gcjLng := 223.958387
     wgsLat, wgsLng := trans.GCJtoWGS(gcjLat, gcjLng)
     fmt.Printf("wgsLat=%v\n", wgsLat)
     fmt.Printf("wgsLng=%v\n", wgsLng)
